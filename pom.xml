@@ -8,6 +8,8 @@
     <version>0.0.1</version>
     <modules>
         <module>ch01-base</module>
+        <module>ch02-usual</module>
+        <module>ch03-higher</module>
     </modules>
     <packaging>pom</packaging>
     <name>study-boot1</name>
@@ -18,8 +20,21 @@
     </properties>
 
     <dependencies>
-
-
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.10</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>1.5.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
+        </dependency>
     </dependencies>
 
     <build>
